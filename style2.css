@@ -1,0 +1,445 @@
+@media only screen and (width > 1050px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    img{
+        float: left;
+        position: absolute;
+        left: 10px;
+        top: 3vw;
+        height:30vw;
+    }
+    
+    body {
+        background-image: url(GlassMorphism.jpg.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: white;
+    }
+
+    .form {
+        /*position: fixed;
+        left: 11%;
+        top: 12%;*/
+        height: 450px;
+        width: 90vw;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255, 0.2);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(50px);
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .container{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .text h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 5vw;
+        width: 95%;
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        /*text-align:right;*/
+    }
+
+    .form .input {
+        width: 60%;
+        height: 20%;
+        margin: 40px 0px;
+        margin-left: 40%;
+    }
+
+    .input input {
+        outline: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        padding: 20px;
+        padding-right: 45px;
+        border: 2px solid white;
+        background: transparent;
+        color: #fff;
+    }
+
+    .form input::placeholder {
+        color: #fff;
+    }
+
+    .input i {
+        position: absolute;
+        padding-right: 60px;
+        padding-top: 20px;
+        transform: translate(-50%);
+        font-size: 20px;
+    }
+    .form .submit {
+        position: absolute;
+        left: 40%;
+        width: 60%;
+        height: 20%;
+        margin: 20px 0px;
+        margin-top: 0px;
+        padding-right: 40px;
+    }
+
+    .submit button {
+        position: absolute;
+        width: 97%;
+        border-radius: 60px;
+        padding: 20px;
+        border: 2px solid white;
+        background-color: #ffffffc0;
+        color: black;
+        text-align: center;
+    }
+
+    .submit button:hover {
+        background-color: white;
+    }
+
+}
+@media only screen and (width > 800px ) and (width <= 1050px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    img{
+        float: left;
+        position: absolute;
+        left: 10px;
+        top: 2vw;
+        height:35vw;
+    }
+    
+    body {
+        background-image: url(GlassMorphism.jpg.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: white;
+    }
+
+    .form {
+        /*position: fixed;
+        left: 11%;
+        top: 12%;*/
+        height: 450px;
+        width: 90vw;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255, 0.2);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(50px);
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .container{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .text h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 5vw;
+        width: 95%;
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        /*text-align:right;*/
+    }
+
+    .form .input {
+        width: 60%;
+        height: 20%;
+        margin: 40px 0px;
+        margin-left: 40%;
+    }
+
+    .input input {
+        outline: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        padding: 20px;
+        padding-right: 45px;
+        border: 2px solid white;
+        background: transparent;
+        color: #fff;
+    }
+
+    .form input::placeholder {
+        color: #fff;
+    }
+
+    .input i {
+        position: absolute;
+        padding-right: 60px;
+        padding-top: 20px;
+        transform: translate(-50%);
+        font-size: 20px;
+    }
+    .form .submit {
+        position: absolute;
+        left: 40%;
+        width: 60%;
+        height: 20%;
+        margin: 20px 0px;
+        margin-top: 0px;
+        padding-right: 40px;
+    }
+
+    .submit button {
+        position: absolute;
+        width: 97%;
+        border-radius: 60px;
+        padding: 20px;
+        border: 2px solid white;
+        background-color: #ffffffc0;
+        color: black;
+        text-align: center;
+    }
+
+    .submit button:hover {
+        background-color: white;
+    }
+
+}
+@media only screen and (width > 600px ) and (width <= 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    img{
+        float: left;
+        position: absolute;
+        left: 10px;
+        top: 7vw;
+        height:38vw;
+    }
+    
+    body {
+        background-image: url(GlassMorphism.jpg.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: white;
+    }
+
+    .form {
+        /*position: fixed;
+        left: 11%;
+        top: 12%;*/
+        height: 450px;
+        width: 90vw;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255, 0.2);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(50px);
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .container{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .text h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 5vw;
+        width: 95%;
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        /*text-align:right;*/
+    }
+
+    .form .input {
+        width: 60%;
+        height: 20%;
+        margin: 40px 0px;
+        margin-left: 40%;
+    }
+
+    .input input {
+        outline: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        padding: 20px;
+        padding-right: 45px;
+        border: 2px solid white;
+        background: transparent;
+        color: #fff;
+    }
+
+    .form input::placeholder {
+        color: #fff;
+    }
+
+    .input i {
+        position: absolute;
+        padding-right: 60px;
+        padding-top: 20px;
+        transform: translate(-50%);
+        font-size: 20px;
+    }
+    .form .submit {
+        position: absolute;
+        left: 40%;
+        width: 60%;
+        height: 20%;
+        margin: 20px 0px;
+        margin-top: 0px;
+        padding-right: 40px;
+    }
+
+    .submit button {
+        position: absolute;
+        width: 97%;
+        border-radius: 60px;
+        padding: 20px;
+        border: 2px solid white;
+        background-color: #ffffffc0;
+        color: black;
+        text-align: center;
+    }
+
+    .submit button:hover {
+        background-color: white;
+    }
+
+}
+
+@media only screen and (width <= 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height:50vw;
+    }
+    body {
+        background-image: url(GlassMorphism.jpg.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:center;
+        color: white;
+    }
+    .container{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .form{
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        height:fit-content;
+        width: 90vw;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255, 0.2);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(50px);
+        padding: 2vw;
+        border-radius: 20px;
+        /*position: fixed;
+        left:50px;
+        right: 50px;
+        height: 800px;
+        width: 500px;
+        margin-top: 110px;*/
+    }
+    .text h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 10vh;
+        /*width: 100%;*/
+        font-size: 9vw;
+        text-align: center;
+        /*padding: 20px 0px;*/
+        margin-bottom: 20px;
+    }
+    .form .input {
+        
+        width: 100%;
+        height: 20%;
+        margin: 20px 0px;
+    }
+    .input input {
+        
+        outline: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        padding: 20px;
+        padding-right: 45px;
+        border: 2px solid white;
+        background: transparent;
+        color: #fff;
+    }
+    .form input::placeholder {
+        color: #fff;
+    }
+
+    .input i {
+        position: absolute;
+        padding-right: 55px;
+        padding-top: 20px;
+        transform: translate(-50%);
+        font-size: 20px;
+    }
+    
+    .form .submit {
+
+        width: 100%;
+        height: 20%;
+        margin: 20px 0px;
+        margin-top: 40px;
+    }
+
+    .submit button {
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        padding: 20px;
+        border: 2px solid white;
+        background-color: #ffffffc0;
+        color: black;
+    }
+
+    .submit button:hover {
+        background-color: white;
+    }
+
+}
